@@ -4,9 +4,9 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>About Us || Stanton Holly Trail</title>
-		<!-- Latest compiled and minified CSS -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>About Us || Holly Trail</title>
+		<link rel="stylesheet" href="assets/css/reset.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/style.css">	
  	</head>
@@ -14,13 +14,19 @@
 
 
 
-		<!-- Header -->
-		
+		<!-- Main Header -->
 		<div class="">
 			<img class="img-responsive center-block header-img" src="assets/images/stanton_holly_trail.png">
 		</div>
+		<div class="head-banner">
+			<h3 class="text-center">CELEBRATING 55 YEARS!</h3>
+			<h4 class="text-center">December 3, 2016</h4>
+		</div>
 		
-		<div class="text-center">
+		
+
+		<!-- Navbar -->
+		<div class="text-center navbar-up">
 			<nav class="navbar navbar-default">
 				<div class="container-fluid red-border">
 				    <!-- Brand and toggle grouped for better mobile display -->
@@ -35,10 +41,11 @@
 				    </div>
 				    <!-- Collect the nav links for toggling -->
 				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					    <ul class="nav navbar-nav nav-pills">
+					    <ul class="nav navbar-nav nav-pills nav-stacked">
 					        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
 					        <li class="active"><a href="about_us.html">About Us</a></li>
 					        <li><a href="history.html">History</a></li>
+					        <!-- Beneficiaries Dropdown -->
 					        <li class="dropdown">
 						        <a href="beneficiaries.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Beneficiaries<span class="caret"></span></a>
 						        <ul class="dropdown-menu">
@@ -48,10 +55,11 @@
 						        </ul>
 					        </li>
 					        <li><a href="tickets.html">Tickets</a></li>
-					        <li><a href="shop.html">Shop</a></li>
 					        <li><a href="donate.html">Donate</a></li>
 					        <li><a href="directions.html">Directions</a></li>
 					    </ul>
+					    <a class="navbar-right hide-sm" href="https://www.facebook.com/StantonHollyTrail/" target="_blank"><img src="assets/images/facebook_icon_words.png"></a>
+					    <a class="navbar-right show-md hide-xs" href="https://www.facebook.com/StantonHollyTrail/" target="_blank"><img src="assets/images/facebook_icon.png"></a>
 				    </div><!-- /.navbar-collapse -->
 				</div><!-- /.container-fluid -->
 			</nav>
@@ -59,16 +67,17 @@
 
 		<!-- Container -->
 		<div class="container-fluid">
-			<div class="row">	
+			<div class="row row-eq-height">	
+				
 				<!-- Main Content -->
-				<div class="col-sm-12 col-md-9">
+				<div class="col-sm-12 col-md-8 row-eq-height">
 					<div class="panel panel-default">
 						<div class="page-header text-center hide-sm">
 							<h2>About Us</h2>
 						</div>
 						<div class="panel-body">
 							<div class="col-xs-12 col-sm-6">
-								<img class="img-responsive" src="assets/images/house_photo_2.jpg">
+								<img class="img-responsive" src="http://placehold.it/350x200">
 							</div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque et dui purus. Vestibulum erat ligula, cursus a odio et, dignissim auctor tortor. Curabitur sed tempor lectus. Suspendisse in cursus quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse eu sapien vel felis maximus suscipit. Nam maximus erat et ante sodales posuere. Fusce porta, nunc id suscipit ultrices, eros justo interdum turpis, ac luctus massa est non mi. Nam laoreet lorem eget ultricies auctor. Cras molestie commodo arcu, vitae dictum erat varius sagittis.</p>
 							<p>Sed rutrum sapien vitae est posuere cursus. Sed hendrerit urna dui, a iaculis justo lacinia sed. Phasellus consectetur urna consequat, pharetra metus id, tincidunt lectus. Quisque et massa ac eros feugiat accumsan sit amet ut nibh. Cras cursus ut nibh in tincidunt. In commodo luctus faucibus. In iaculis placerat ipsum, a imperdiet tellus aliquam vel. Donec felis nisl, accumsan quis massa eget, convallis convallis eros. Aliquam blandit tellus a erat lobortis tempor. Pellentesque sodales enim eros, vitae tincidunt ante tempus id. Suspendisse augue erat, molestie non ante non, hendrerit gravida enim. Aliquam id ligula pretium, finibus orci eget, vulputate nibh. Sed sed ipsum luctus, varius dolor non, blandit nisl. Pellentesque nec risus justo.</p>
@@ -77,31 +86,69 @@
 							<p>Sed posuere hendrerit quam eget congue. Pellentesque gravida placerat lorem sed semper. Praesent nisl orci, cursus ut est id, molestie mattis dolor. Duis ullamcorper leo non ligula dignissim, ut ornare dui pulvinar. Nulla sit amet eros ex. Proin euismod aliquam tortor, ac consequat augue consequat ac. Duis maximus eleifend nisl, a ullamcorper felis placerat eget. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p>
 						</div>
 					</div>
-				</div>	
-				<!-- Sponsored By -->
-				<div class="col-sm-12 col-md-3">	
+				</div>
+
+				<!-- Beneficiaries Sidebar -->
+				<div class="hide-sm col-md-4 row-eq-height">
+					<div class="panel-group">
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<h5 class="text-center">Stanton Reformed Church</h5>
+								<div class="col-md-7 col-lg-6 sidebar-img">
+									<img class="img-responsive" src="assets/images/stanton_church.jpg">
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin quis quam ac orci tincidunt dapibus. Mauris in justo vitae mi suscipit tincidunt. Vivamus efficitur urna et nibh pellentesque laoreet. In sed mauris odio. Suspendisse ultrices lacinia libero in vulputate. Pellentesque vitae tempus turpis, sit amet blandit lacus. Maecenas rhoncus justo in risus tempus, sed pharetra risus molestie. In porta lorem justo. Quisque sed ullamcorper dui.</p>
+							</div>
+						</div>
+						<div class="panel panel-default">
+							<div class="panel-body">
+								<h5 class="text-center">Briteside Adult Day Center</h5>
+								<div class="col-md-7 col-lg-6 sidebar-img">
+									<img class="img-responsive" src="assets/images/stanton_church.jpg">
+								</div>
+								<p>Suspendisse feugiat imperdiet viverra. In hac habitasse platea dictumst. Proin tempor a metus ut elementum. Proin cursus nisl id tortor commodo, id sollicitudin ipsum convallis. Suspendisse varius ex sollicitudin, venenatis mauris a, interdum nisl. Donec quis ex dignissim, consectetur nibh vel, aliquet nisi. Mauris hendrerit ac nulla vitae scelerisque. Nulla convallis ornare velit, id ornare arcu fermentum ac. Aenean vel imperdiet tellus, in pellentesque velit. Sed pellentesque tempor turpis, sit amet scelerisque nulla dictum eu. Vestibulum sem lacus, malesuada vitae dictum sit amet, tristique nec neque.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			
+			<!-- Sponsored By -->
+			<div class="row">
+				<div class="col-sm-12">	
 					<div class="panel panel-default">
 			     		<div class="panel-body">
-			     			<h4 class="text-center">2016 STANTON HOLLY TRAIL GENEROUSLY SPONSORED BY</h4>
+			     			<h4 class="text-center">2016 STANTON HOLLY TRAIL SPONSORED BY</h4>
 			     	 		<div class="row">
-			     	 			<div class="col-xs-3 col-md-12">
-				     	 			<img class="img-responsive" src="assets/images/flemington_furs_logo.png" alt="Flemington Furs Logo">
-				     	 		</div>
-				     	 		<div class="col-xs-3 col-md-12">
-					     	 		<img class="img-responsive" src="assets/images/shoprite_logo.png" alt="ShopRite Logo">
-					     	 	</div>
-					     	 	<div class="col-xs-3 col-md-12 hide-md">
-					     	 		<img class="img-responsive" src="assets/images/flemington_furs_logo.png" alt="Flemington Furs Logo">
-					     	 	</div>
-					     	 	<div class="col-xs-3 col-md-12 hide-md">
-					     	 		<img class="img-responsive" src="assets/images/shoprite_logo.png" alt="ShopRite Logo">
-					     	 	</div>
+					     	 		<div class="hide-xs col-sm-2">
+						     	 		<a href="#" target="_blank"><img class="img-responsive center-block" src="assets/images/your_logo_here.jpg" alt="Your Logo Here!"></a>
+						     	 	</div>
+				     	 			<div class="col-xs-3 col-sm-2">
+					     	 			<a class="black-link" href="https://www.flemingtonfurs.com" target="_blank"><img class="img-responsive sponsor-logo center-block" src="assets/images/flemington_furs_stack_logo.png" alt="Flemington Furs Logo"></a>
+					     	 		</div>
+					     	 		<div class="col-xs-3 col-sm-2">
+						     	 		<a href="https://www.shoprite.com/member_colalillo/" target="_blank"><img class="img-responsive center-block" src="assets/images/shoprite_badge_logo.png" alt="ShopRite Logo"></a>
+						     	 	</div>
+				     	 			<div class="col-xs-3 col-sm-2">
+					     	 			<a class="black-link" href="https://www.flemingtonfurs.com" target="_blank"><img class="img-responsive sponsor-logo center-block" src="assets/images/flemington_furs_stack_logo.png" alt="Flemington Furs Logo"></a>
+					     	 		</div>
+					     	 		<div class="col-xs-3 col-sm-2">
+						     	 		<a href="https://www.shoprite.com/member_colalillo/" target="_blank"><img class="img-responsive center-block" src="assets/images/shoprite_badge_logo.png" alt="ShopRite Logo"></a>
+						     	 	</div>
+				     	 			<div class="hide-xs col-sm-2">
+					     	 			<a href="#" target="_blank"><img class="img-responsive center-block" src="assets/images/your_logo_here.jpg" alt="Your Logo Here!"></a>
+					     	 		</div>
 				     	 	</div>
 			     		</div>
 					</div>
 				</div>
 			</div>
+
 		</div>	<!-- Container -->
+
+
+
 
 <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
 <!-- Latest compiled and minified JavaScript -->
